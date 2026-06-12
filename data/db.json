@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "username": "alex_explorer",
+      "email": "alex@connecthub.com",
+      "passwordHash": "$2a$10$M8Y8i5Z8/Wd2q7FzC5g7e.42vNRErE9j.uR6XfS7a9V76m1J8H8rG",
+      "profileImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "bio": "Adventurer & Photographer. Capturing the world one frame at a time. 🏔️📸",
+      "createdAt": "2026-05-13T07:52:07.442Z"
+    },
+    {
+      "id": "user-2",
+      "username": "elena_codes",
+      "email": "elena@connecthub.com",
+      "passwordHash": "$2a$10$M8Y8i5Z8/Wd2q7FzC5g7e.42vNRErE9j.uR6XfS7a9V76m1J8H8rG",
+      "profileImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "bio": "Software Engineer | Open Source Enthusiast. Translating coffee into clean React code. ☕💻",
+      "createdAt": "2026-05-18T07:52:07.443Z"
+    },
+    {
+      "id": "user-3",
+      "username": "marcus_creatives",
+      "email": "marcus@connecthub.com",
+      "passwordHash": "$2a$10$M8Y8i5Z8/Wd2q7FzC5g7e.42vNRErE9j.uR6XfS7a9V76m1J8H8rG",
+      "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "bio": "UI/UX Designer & Architect. Minimalist enthusiast. Design is not just what it looks like.",
+      "createdAt": "2026-05-23T07:52:07.443Z"
+    },
+    {
+      "id": "user-hf1tygpf0is",
+      "username": "sri",
+      "email": "sri@gmail.com",
+      "passwordHash": "$2b$10$A3F80PQk2NzjbZJIF34NQeLAvo/DK5DOaf.E8IH85yFEb7NEFS0Re",
+      "profileImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "bio": "Hey there! I am using ConnectHub.",
+      "createdAt": "2026-06-12T07:54:08.732Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "userId": "user-1",
+      "content": "Chasing the early morning light in the valleys of Switzerland. The air was crisp, and the silence was Golden. 🌲✨ #mountainlife #wanderlust",
+      "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "likesCount": 2,
+      "createdAt": "2026-06-09T07:52:07.443Z"
+    },
+    {
+      "id": "post-2",
+      "userId": "user-2",
+      "content": "Just shipped a major update to ConnectHub! React Server Components meet absolute aesthetic clean styling. Can't wait for your feedback! 🚀💻🎨",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+      "likesCount": 1,
+      "createdAt": "2026-06-11T07:52:07.443Z"
+    },
+    {
+      "id": "post-3",
+      "userId": "user-3",
+      "content": "A beautiful brutalist layout structure I'm working on today. Focus on bold typography, asymmetry, and raw grids. Space is the luxury.",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "likesCount": 0,
+      "createdAt": "2026-06-11T19:52:07.443Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comment-1",
+      "postId": "post-1",
+      "userId": "user-2",
+      "commentText": "This is breathtaking, Alex! Adding this place to my travel bucket list.",
+      "createdAt": "2026-06-10T07:52:07.443Z"
+    },
+    {
+      "id": "comment-2",
+      "postId": "post-1",
+      "userId": "user-3",
+      "commentText": "The composition is stunning. Love the natural framing lines.",
+      "createdAt": "2026-06-10T07:52:07.443Z"
+    },
+    {
+      "id": "comment-3",
+      "postId": "post-2",
+      "userId": "user-1",
+      "commentText": "Fantastic work! The app transitions are buttery smooth. 🔥",
+      "createdAt": "2026-06-11T13:52:07.443Z"
+    }
+  ],
+  "followers": [
+    {
+      "id": "f-1",
+      "followerId": "user-2",
+      "followingId": "user-1"
+    },
+    {
+      "id": "f-2",
+      "followerId": "user-3",
+      "followingId": "user-1"
+    },
+    {
+      "id": "f-3",
+      "followerId": "user-1",
+      "followingId": "user-2"
+    }
+  ],
+  "likes": [
+    {
+      "id": "l-1",
+      "userId": "user-2",
+      "postId": "post-1"
+    },
+    {
+      "id": "l-2",
+      "userId": "user-3",
+      "postId": "post-1"
+    },
+    {
+      "id": "l-3",
+      "userId": "user-1",
+      "postId": "post-2"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "type": "like",
+      "senderId": "user-2",
+      "receiverId": "user-1",
+      "postId": "post-1",
+      "read": true,
+      "createdAt": "2026-06-10T07:52:07.443Z"
+    },
+    {
+      "id": "notif-2",
+      "type": "comment",
+      "senderId": "user-2",
+      "receiverId": "user-1",
+      "postId": "post-1",
+      "commentText": "This is breathtaking, Alex! Adding this place to my travel bucket list.",
+      "read": true,
+      "createdAt": "2026-06-10T07:52:07.443Z"
+    },
+    {
+      "id": "notif-3",
+      "type": "follow",
+      "senderId": "user-2",
+      "receiverId": "user-1",
+      "read": true,
+      "createdAt": "2026-06-07T07:52:07.443Z"
+    }
+  ]
+}

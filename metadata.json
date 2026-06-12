@@ -1,0 +1,6 @@
+{
+  "name": "ConnectHub",
+  "description": "A modern, responsive full-stack social media platform featuring posts, comments, likes, follower networks, real-time notifications, and profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
